@@ -1,0 +1,24 @@
+# may encounter permissions when creating new app directories...
+sudo chown -R $USER:$USER .
+
+
+# Ignored files, should be in this format though...
+
+etc/.env.prod
+
+DEBUG=0
+SECRET_KEY=change_me
+DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=fc_prod
+SQL_USER=admin
+SQL_PASSWORD=pass
+SQL_HOST=db
+SQL_PORT=5432
+DATABASE=postgres
+
+etc/.env.prod.db
+
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=pass
+POSTGRES_DB=fc_prod
