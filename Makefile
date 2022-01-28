@@ -22,8 +22,8 @@ build_prod:
 migrate_prod:
 	docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --no-input
 
-.PHONY=prod
-prod:
+.PHONY=start_prod
+start_prod:
 	docker-compose -f docker-compose.prod.yml up
 
 .PHONY=db_cli

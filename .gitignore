@@ -1,2 +1,5 @@
 .env.prod
 .env.prod.db
+app/mediafiles/
+db.sqlite3
+NOTES/
