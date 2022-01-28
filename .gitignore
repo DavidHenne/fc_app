@@ -1,4 +1,4 @@
 .env.prod
 .env.prod.db
-app/mediafiles/
+mediafiles/
 db.sqlite3
